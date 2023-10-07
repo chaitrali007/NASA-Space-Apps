@@ -1,0 +1,17 @@
+.Info{
+    /* background-color: aliceblue; */
+    text-align: left
+    /* display: flex;
+    align-items: start; */
+}
+.i{
+    width: 50%;
+    text-align: left
+}
+h1{
+    font-family:'Oswald',  sans-serif;
+    color: orange;
+}
+h4{
+    font-family: 'Roboto-Condensed';
+}
