@@ -2,11 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Carousel from "./Carousel";
 import "./Home.css"
+import Projects from "./Projects";
+import Image from "./images/Black and Neon Green Modern Creative Agency Timeline Instagram Story.png";
 
 function Home(){
     return (
       <>
-      <Carousel/>
+        <Carousel />
         <div className="Info">
           <div className="h">
             <h1>What's Heliophysic Big Year?</h1>
@@ -26,6 +28,10 @@ function Home(){
             <img src="https://science.nasa.gov/wp-content/uploads/2023/09/HBY_color_full.png"></img>
           </div>
         </div>
+        <br/>
+        
+        <Projects />
+        <img className="timeline" src={Image}></img>
       </>
     );
 }
