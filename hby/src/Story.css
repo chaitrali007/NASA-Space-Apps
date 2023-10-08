@@ -1,0 +1,21 @@
+.stories{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+.story-roll{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.articles{
+    display:flex;
+    flex-direction: row;
+}
+.i1, .i2{
+    width:90%;
+}
+
+.i3, .i4, .i5{
+    width: 100%;
+}

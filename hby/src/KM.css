@@ -1,0 +1,48 @@
+body {
+    
+}
+.heliophy{
+    padding-left: 2%;
+    background-color: black;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-image: url("./images/sunn.png"); */
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.p{
+    color: white;
+    font-size: larger;
+    padding-top: 2%;
+    width: 60%;
+    text-align: justify;
+    padding-bottom: 2%;
+}
+.helio, .h{
+    padding-top: 1%;
+    font-family: 'Roboto Condensed';
+    text-decoration: underline, orange;
+    text-align: left;
+    margin-left: 1%;
+    
+}
+.imp{
+    width: 100%;
+    height: 630px;
+}
+.video{
+    display: flex;
+
+    /* padding-top: 2%; */
+    /* padding-left: 2%; */
+    margin-left: 1%;
+    padding-bottom: 2%;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    /* height: 320px;
+    width: 480px; */
+} 
+
+
