@@ -3,21 +3,24 @@
 .project-detail {
     font-family: Inter, sans-serif;
     padding: px;
-    background-color: #f3f3f3;
+    background-color: black;
   }
   
   .header-project {
-    background-image: url('../../images/three.jpg');
+    background-image: url('../../images/sunn.png');
     background-size: cover;
     background-position: center;
+    background-color: black;
     text-align: center;
     color: #fff;
-    padding: 125px;
+    padding: 200px;
+
+
 
   }
   
   .header-project h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   
   .content {
@@ -27,12 +30,12 @@
     align-items: flex-start;
     margin-top: 20px;
     gap: 2rem;
-    padding: 3%;
+    padding: 7%;
   }
   
   .project-description {
     flex: 70%; 
-    background-color: #fff;
+    background-color: black;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -40,13 +43,13 @@
   
   .project-description h2 {
     font-size: 1.5rem;
-    color: #333;
+    color: white;
   }
   
   .project-description p {
     margin-top: 10px;
     font-size: 1rem;
-    color: #777;
+    color: white;
   }
   
   .contribute-card {
