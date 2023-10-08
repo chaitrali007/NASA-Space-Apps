@@ -11,9 +11,9 @@ function Home(){
         <Carousel />
         <div className="Info">
           <div className="h">
-            <h1>What's Heliophysic Big Year?</h1>
+            <h1 className="whatis">What's Heliophysic Big Year?</h1>
             <div className="i">
-              <p>
+              <p className="helioinfo">
                 The Heliophysics Big Year is a global celebration of solar
                 science and the Sun’s influence on Earth and the entire solar
                 system. During the Heliophysics Big Year, you will have the
@@ -24,8 +24,8 @@ function Home(){
               </p>
             </div>
           </div>
-          <div className="image">
-            <img src="https://science.nasa.gov/wp-content/uploads/2023/09/HBY_color_full.png"></img>
+          <div className="image-hby">
+            <img src="https://science.nasa.gov/wp-content/uploads/2023/09/HBY_color_full.png" className="nasa-img"></img>
           </div>
         </div>
         <br/>

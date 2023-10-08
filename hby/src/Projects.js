@@ -13,6 +13,7 @@ const projectData = [
     imageSrc: p1,
     title: "The Sungrazer Project",
     description: "Discover and report previously unknown comets.",
+    link: "https://sungrazer.nrl.navy.mil/",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const projectData = [
     title: "Solar Jet Hunter",
     description:
       "Join the hunt for solar jets — enigmatic bursts of energy from our own star, the Sun.",
+    link: "https://sungrazer.nrl.navy.mil/",
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ const projectData = [
     title: "Eclipse Megamovie",
     description:
       "Use a DSLR camera to record dynamics in the solar corona during the total eclipse, or help analyze the images afterward.",
+    link: "https://sungrazer.nrl.navy.mil/",
   },
   {
     id: 4,
@@ -34,12 +37,13 @@ const projectData = [
     title: "Citizen CATE 2024",
     description:
       "Help study structures and changes in the Sun’s outer atmosphere, or corona, by taking images of the total eclipse in polarized light.",
+    link: "https://sungrazer.nrl.navy.mil/",
   },
 ];
 
 const Projects = () => {
-  const handleImageClick = (id) => {
-    console.log(`Clicked on image card with ID ${id}`);
+  const handleImageClick = (link,id) => {
+    window.open(link, "_blank");
   };
 
   return (
@@ -50,7 +54,7 @@ const Projects = () => {
           <div key={project.id} className="project-card">
             <ImageCard
               imageSrc={project.imageSrc}
-              onClick={() => handleImageClick(project.id)}
+              onClick={() => handleImageClick(project.link, project.id)}
             />
             <h2>{project.title}</h2>
             <p>{project.description}</p>

@@ -12,7 +12,7 @@ function Know() {
           <h1>Heliophysics</h1>
         </div>
         <div className="p">
-          <p>
+          <p className="know-more">
             Heliophysics Division studies the nature of the Sun, and how it
             influences the very nature of space — and, in turn, the atmospheres
             of planets and the technology that exists there. Space is not, as is
@@ -24,7 +24,7 @@ function Know() {
             solar system.
           </p>
           <br></br>
-          <p>
+          <p className="know-more">
             Studying this system not only helps us understand fundamental
             information about how the universe works, but also helps protect our
             technology and astronauts in space. NASA seeks knowledge of

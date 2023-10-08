@@ -13,7 +13,7 @@ body{
     /* width: 120%; */
     background-color: black;
 }
-p{
+.helioinfo{
     color: white;
     font-family: 'Belleza';
     line-height: 29px;
@@ -28,14 +28,14 @@ p{
     background-color: black;
     line-height: 29px;
 }
-h1{
+.whatis{
     font-family: 'Inter', sans-serif;
     color: orange;
     padding-left: 5%;
     background-color: black;
 }
 
-.image{
+.image-hby{
     padding-top: 40px;
     display: flex;
     background-color: black;
@@ -47,8 +47,8 @@ h1{
 .timeline{
     width: 100%;
 }
-img{
-    width: 40%;
+.nasa-img{
+    width: 60%;
 }
 @media(min-width: 768px){
     .Info {

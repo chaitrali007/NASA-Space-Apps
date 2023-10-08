@@ -1,0 +1,90 @@
+/* ProjectDetail.css */
+
+.project-detail {
+    font-family: Inter, sans-serif;
+    padding: px;
+    background-color: black;
+  }
+  
+  .header-project {
+    background-image: url('../src/images/sunn.png');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 200px;
+
+
+
+  }
+  
+  .header-project h1 {
+    font-size: 3rem;
+  }
+  
+  .content {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 2rem;
+    padding: 7%;
+  }
+  
+  .project-description {
+    flex: 70%; 
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-description h2 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .project-description p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .contribute-card {
+    flex: 30%; /* Adjust the width as needed */
+    background-color: orange;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contribute-card h2 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .contribute-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .get-started-button {
+    background-color: #fff;
+    color: rgb(5, 5, 5);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background-color: rgb(251, 235, 211);
+    color: #030303;
+  }
+  
